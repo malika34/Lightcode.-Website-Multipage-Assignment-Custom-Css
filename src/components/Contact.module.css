@@ -67,6 +67,10 @@
 }
 
 @media(max-width:950px) {
+    .container {
+        margin-top: 2rem;
+    }
+
     .contactForm form {
         width: 100%;
     }
