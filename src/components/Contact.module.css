@@ -1,0 +1,82 @@
+/* contact  */
+
+.container {
+    padding: 0 5%;
+}
+
+.description {
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headingSecondary {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.contactForm form {
+    width: 80%;
+}
+
+.contactForm .row {
+    width: 100%;
+    display: flex;
+}
+
+.mb {
+    margin-bottom: 4rem;
+}
+
+.input50 {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.input100 {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.contactForm .row input,
+.contactForm .row textarea {
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: var(--color-black);
+    padding: 10px;
+    outline: none;
+    margin: 10px 0;
+}
+
+.contactForm .row textarea {
+    height: 150px;
+}
+
+.contactForm .row input[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    border: 0;
+    cursor: pointer;
+}
+
+@media(max-width:950px) {
+    .contactForm form {
+        width: 100%;
+    }
+
+    .contactForm .row {
+        flex-direction: column;
+    }
+
+    .contactForm .input100,
+    .contactForm .input50 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+.footerContent {
+    background-color: var(--primary-color);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContent p {
+    color: var(--color-white);
+    font-size: 0.8rem;
+    text-align: center;
+}
